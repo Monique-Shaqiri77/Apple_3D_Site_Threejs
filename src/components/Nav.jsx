@@ -1,4 +1,5 @@
 import React from "react";
+
 import Logo from "../assets/images/logo.svg";
 import Search from '../assets/images/search.svg'
 import Store from '../assets/images/store.svg'
@@ -11,35 +12,35 @@ function Nav() {
             <img src={Logo} alt="apple logo" />
           </li>
           <li>
-            <a className="linked-styled" href="#"> Store </a>
+            <a className="link-styled" href="#"> Store </a>
           </li>
           <li>
-            <a className="linked-styled" href="#"> Mac </a>
+            <a className="link-styled" href="#"> Mac </a>
           </li>
           <li>
-            <a className="linked-styled" href="#"> I pad </a>
+            <a className="link-styled" href="#"> I pad </a>
           </li>
           <li>
-            <a className="linked-styled" href="#"> I Phone</a>
+            <a className="link-styled" href="#"> I Phone</a>
           </li>
           <li>
-            <a className="linked-styled" href="#"> Watch </a>
+            <a className="link-styled" href="#"> Watch </a>
           </li>
           <li>
-            <a className="linked-styled" href="#"> Air pods</a>
+            <a className="link-styled" href="#"> Air pods</a>
           </li>
           <li>
-            <a className="linked-styled" href="#"> Tv and Home </a>
+            <a className="link-styled" href="#"> Tv and Home </a>
           </li>
           <li>
-            <a className="linked-styled" href="#"> Entertainment </a>
+            <a className="link-styled" href="#"> Entertainment </a>
           </li>
           <li>
-            <a className="linked-styled" href="#">  Accessories</a>
+            <a className="link-styled" href="#">  Accessories</a>
             
           </li>
           <li>
-            <a className="linked-styled" href="#"> Support</a>
+            <a className="link-styled" href="#"> Support</a>
           </li>
           <li>
             <img src={Search} alt="Search icon"/>
